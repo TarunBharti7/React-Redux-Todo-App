@@ -3,10 +3,10 @@ import React from 'react'
 const Navbar = () => {
     return (
         <>
-            <div className='flex justify-between pt-4 px-12 h-16 '>
-                <h1 className='font-serif font-bold text-2xl pt-2'>Mission Complete ⚔️</h1>
-                <div className="dropdown mb-72">
-                    <div tabIndex={0} role="button" className="btn m-1">
+            <div className='flex justify-between lg:px-12 h-16 pt-6 px-8 '>
+                <h1 className='font-serif font-bold text-sm lg:pt-2 md:text-2xl pt-5'>Mission Complete ⚔️</h1>
+                <div className="dropdown mb-72 ">
+                    <div tabIndex={0} role="button" className="btn m-1 lg:ml-0 ml-10">
                         Theme
                         <svg width="12px" height="12px" className="h-2 w-2 fill-current opacity-60 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path></svg>
                     </div>

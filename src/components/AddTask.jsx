@@ -23,7 +23,7 @@ const AddTask = () => {
         <input
           type="text"
           placeholder="Type here"
-          className="input input-bordered input-info w-full max-w-xs"
+          className="input input-bordered input-info lg:w-full max-w-xs"
           value={taskTitle}
           onChange={(e) => setTaskTitle(e.target.value)} // Update taskTitle state with input value
         />

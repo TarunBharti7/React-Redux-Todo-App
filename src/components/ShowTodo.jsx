@@ -30,7 +30,7 @@ const ShowTodo = () => {
 
     return (
         <>
-            <div className='flex justify-around pt-10 flex-wrap gap-20'>
+            <div className='flex lg:justify-around justify-center pt-10 flex-wrap lg:gap-20 pl-8 lg:pl-0'>
                 {tasks.map(task => (
                     <div key={task.id} className="card w-80 bg-neutral text-neutral-content">
                         <div className="card-body items-center text-center">
